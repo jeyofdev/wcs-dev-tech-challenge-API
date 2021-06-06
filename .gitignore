@@ -6,3 +6,6 @@
 
 # package manager
 yarn-error.log
+
+# database
+/sql/
