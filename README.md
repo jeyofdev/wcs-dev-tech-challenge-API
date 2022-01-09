@@ -4,15 +4,36 @@
 
 This project was carried out as part of my application for the advanced web and mobile developer training at the Wild Code School.
 
-## Built With
+## Features
 
--   [NodeJS](https://nodejs.org/)
--   [Express](https://expressjs.com/)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Project
 
 This repository concerns the back-end part of the application.
 The front-end part is available on this [repository](https://github.com/jeyofdev/wcs-dev-tech-challenge-Client)
+
+## Getting starting
+
+#### Tools
+
+Check that [`Nodejs`](https://nodejs.org/en/download/) is installed :
+
+```sh
+$ node -v
+```
+
+#### Dependencies
+
+Install all dependencies :
+
+```sh
+$ yarn
+$ npm install
+```
 
 ## How To Use
 
@@ -29,14 +50,20 @@ $ yarn install
 $ yarn dev
 ```
 
-Don't forget to fill in the database connection information dans le .env
+### Environment
 
-```env
-PORT=3000
+Create .env file based on .env.example and modify variables.
+
+```sh
+# Default settings
+PORT=your_port
+
+# Database settings
+PORT=your_port
 DB_HOST="Host"
-DB_USER="your username"
-DB_PASSWORD="your password"
-DB_NAME="your database name"
+DB_USER="your_username"
+DB_PASSWORD="your_password"
+DB_NAME="your_database_name"
 ```
 
 ## Production

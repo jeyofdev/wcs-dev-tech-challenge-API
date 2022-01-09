@@ -15,7 +15,8 @@
     "nodejs",
     "js",
     "express",
-    "api"
+    "api",
+    "mysql"
   ],
   "author": "jeyofdev <jgregoire.pro@gmail.com>",
   "license": "ISC",
